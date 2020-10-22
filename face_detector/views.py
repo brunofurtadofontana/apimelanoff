@@ -1,11 +1,10 @@
-from django.shortcuts import render
-
 # Create your views here.
 # import the necessary packages
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 import numpy as np
 # import urllib # python 2
+import matplotlib.pyplot as plt
 import urllib.request # python 3
 import json
 import cv2
